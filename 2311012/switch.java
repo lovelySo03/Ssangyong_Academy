@@ -193,3 +193,43 @@ public class Hello {
 }
 
 */
+
+/*******************************************************************/
+/*
+import java.util.Scanner;
+
+public class Hello {
+
+	public static void main(String[] args) {
+		
+		// switch를 if문으로 변경 
+		Scanner sc = new Scanner(System.in);
+		System.out.println("당신의 점수를 입력하세요(1~100)");
+		int score = sc.nextInt();
+		char memo = ' ';
+		
+		int divider = score/10;
+	
+		switch(divider){
+			case 10: case 9:
+				memo = 'A';
+				break;
+			case 8:
+				memo = 'B';
+				break;
+			case 7:
+				memo = 'C';
+				break;
+			default:
+				memo = 'F';
+				break;
+
+		}
+
+		System.out.println("당신의 학점은 "+memo+"입니다");
+
+
+		
+	}
+}
+*/
